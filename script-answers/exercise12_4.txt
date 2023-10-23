@@ -1,0 +1,214 @@
+Script started on Sun Oct 22 21:54:32 2023
+[1m[7m%[27m[1m[0m                                                                                                  [0m[27m[24m[Jzhi.qi@zhiqi-mbp2116 script-answers % [K[?2004hccoc  docker run -it ubuntu bash[26D                          [26Ddocker run -it ubuntu bash[19Dcontainer run hello-world[32Dscript O  exercise12_2.txt      [26Ddocker container run hello-world[25Drun -it ubuntu bash      [26D                          [26D[7mdocker start -i great_satoshi[27m[29D[27md[27mo[27mc[27mk[27me[27mr[27m [27ms[27mt[27ma[27mr[27mt[27m [27m-[27mi[27m [27mg[27mr[27me[27ma[27mt[27m_[27ms[27ma[27mt[27mo[27ms[27mh[27mi[?2004l
+[?2004h]0;root@efe625bb7410: /root@efe625bb7410:/# [K]0;root@efe625bb7410: /root@efe625bb7410:/# [7mapt-get install curl[27mapt-get install curl
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 70%Reading package lists... 70%Reading package lists... 71%Reading package lists... 71%Reading package lists... 76%Reading package lists... 76%Reading package lists... 81%Reading package lists... 81%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 87%Reading package lists... 87%Reading package lists... 91%Reading package lists... 91%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  ca-certificates libbrotli1 libcurl4 libldap-2.5-0 libldap-common libnghttp2-14 libpsl5
+  librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libssh-4 openssl publicsuffix
+Suggested packages:
+  libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal libsasl2-modules-ldap
+  libsasl2-modules-otp libsasl2-modules-sql
+The following NEW packages will be installed:
+  ca-certificates curl libbrotli1 libcurl4 libldap-2.5-0 libldap-common libnghttp2-14 libpsl5
+  librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libssh-4 openssl publicsuffix
+0 upgraded, 15 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2956 kB of archives.
+After this operation, 6842 kB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+0% [Working]0% [Waiting for headers]                        Get:1 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 openssl arm64 3.0.2-0ubuntu1.10 [1164 kB]
+0% [1 openssl 13.7 kB/1164 kB 1%]1% [1 openssl 38.9 kB/1164 kB 3%]1% [1 openssl 38.9 kB/1164 kB 3%]1% [1 openssl 40.3 kB/1164 kB 3%]2% [1 openssl 75.3 kB/1164 kB 6%]                                 3% [1 openssl 109 kB/1164 kB 9%]3% [1 openssl 109 kB/1164 kB 9%]4% [1 openssl 143 kB/1164 kB 12%]5% [1 openssl 173 kB/1164 kB 15%]7% [1 openssl 252 kB/1164 kB 22%]8% [1 openssl 304 kB/1164 kB 26%]10% [1 openssl 371 kB/1164 kB 32%]                                                  59.7 kB/s 43s12% [1 openssl 437 kB/1164 kB 37%]                                                  59.7 kB/s 42s14% [1 openssl 509 kB/1164 kB 44%]                                                  59.7 kB/s 40s16% [1 openssl 596 kB/1164 kB 51%]                                                  59.7 kB/s 39s19% [1 openssl 690 kB/1164 kB 59%]                                                  59.7 kB/s 37s20% [1 openssl 754 kB/1164 kB 65%]                                                  59.7 kB/s 36s24% [1 openssl 904 kB/1164 kB 78%]                                                  59.7 kB/s 34s27% [1 openssl 1002 kB/1164 kB 86%]                                                 59.7 kB/s 32s31% [1 openssl 1131 kB/1164 kB 97%]                                                 59.7 kB/s 30s33% [Connecting to ports.ubuntu.com]                                                59.7 kB/s 29s                                                                                                 Get:2 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 ca-certificates all 20230311ubuntu0.22.04.1 [155 kB]
+33% [2 ca-certificates 5347 B/155 kB 3%]                                            59.7 kB/s 29s35% [2 ca-certificates 66.9 kB/155 kB 43%]                                          59.7 kB/s 28s38% [Waiting for headers]                                                           59.7 kB/s 27s                                                                                                 Get:3 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libnghttp2-14 arm64 1.43.0-1build3 [75.4 kB]
+39% [3 libnghttp2-14 9548 B/75.4 kB 13%]                                            59.7 kB/s 27s42% [Working]                                                                       59.7 kB/s 26s                                                                                                 Get:4 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libpsl5 arm64 0.21.0-1.2build2 [58.3 kB]
+42% [4 libpsl5 2549 B/58.3 kB 4%]                                                   59.7 kB/s 26s45% [Working]                                                                       59.7 kB/s 25s                                                                                                 Get:5 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 publicsuffix all 20211207.1025-1 [129 kB]
+45% [5 publicsuffix 12.3 kB/129 kB 10%]                                               177 kB/s 8s50% [Working]                                                                         177 kB/s 7s                                                                                                 Get:6 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libbrotli1 arm64 1.0.9-2build6 [314 kB]
+50% [6 libbrotli1 5347 B/314 kB 2%]                                                   177 kB/s 7s59% [Waiting for headers]                                                             177 kB/s 5s                                                                                                 Get:7 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libsasl2-modules-db arm64 2.1.27+dfsg2-3ubuntu1.2 [21.1 kB]
+59% [7 libsasl2-modules-db 5349 B/21.1 kB 25%]                                        177 kB/s 5s61% [Working]                                                                         177 kB/s 5s                                                                                                 Get:8 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libsasl2-2 arm64 2.1.27+dfsg2-3ubuntu1.2 [55.6 kB]
+61% [8 libsasl2-2 2549 B/55.6 kB 5%]                                                  177 kB/s 5s64% [Waiting for headers]                                                             177 kB/s 5s                                                                                                 Get:9 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libldap-2.5-0 arm64 2.5.16+dfsg-0ubuntu0.22.04.1 [181 kB]
+64% [9 libldap-2.5-0 5347 B/181 kB 3%]                                                177 kB/s 5s70% [Waiting for headers]                                                             177 kB/s 4s                                                                                                 Get:10 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 librtmp1 arm64 2.4+20151223.gitfa8646d.1-2build4 [59.2 kB]
+71% [10 librtmp1 8149 B/59.2 kB 14%]                                                  177 kB/s 4s73% [Working]                                                                         177 kB/s 4s                                                                                                 Get:11 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libssh-4 arm64 0.9.6-2ubuntu0.22.04.1 [184 kB]
+73% [11 libssh-4 5347 B/184 kB 3%]                                                    177 kB/s 4s75% [11 libssh-4 68.3 kB/184 kB 37%]                                                  177 kB/s 3s75% [11 libssh-4 68.3 kB/184 kB 37%]                                                  177 kB/s 3s75% [11 libssh-4 75.3 kB/184 kB 41%]                                                  177 kB/s 3s76% [11 libssh-4 109 kB/184 kB 59%]                                                   177 kB/s 3s80% [Connecting to ports.ubuntu.com]                                                  177 kB/s 3s80% [Waiting for headers]                                                             177 kB/s 3s                                                                                                 Get:12 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libcurl4 arm64 7.81.0-1ubuntu1.14 [285 kB]
+80% [12 libcurl4 13.7 kB/285 kB 5%]                                                   177 kB/s 3s81% [12 libcurl4 41.7 kB/285 kB 15%]                                                  177 kB/s 2s82% [12 libcurl4 87.9 kB/285 kB 31%]                                                  169 kB/s 2s87% [12 libcurl4 260 kB/285 kB 91%]                                                   169 kB/s 1s89% [Waiting for headers]                                                             169 kB/s 1s                                                                                                 Get:13 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 curl arm64 7.81.0-1ubuntu1.14 [190 kB]
+89% [13 curl 5347 B/190 kB 3%]                                                        169 kB/s 1s95% [Waiting for headers]                                                             169 kB/s 0s                                                                                                 Get:14 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libldap-common all 2.5.16+dfsg-0ubuntu0.22.04.1 [15.8 kB]
+95% [14 libldap-common 1149 B/15.8 kB 7%]                                             169 kB/s 0s97% [Waiting for headers]                                                             169 kB/s 0s                                                                                                 Get:15 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libsasl2-modules arm64 2.1.27+dfsg2-3ubuntu1.2 [68.4 kB]
+97% [15 libsasl2-modules 2548 B/68.4 kB 4%]                                           169 kB/s 0s100% [Working]                                                                        169 kB/s 0s                                                                                                 Fetched 2956 kB in 20s (146 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package openssl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 4462 files and directories currently installed.)
+Preparing to unpack .../00-openssl_3.0.2-0ubuntu1.10_arm64.deb ...
+Unpacking openssl (3.0.2-0ubuntu1.10) ...
+Selecting previously unselected package ca-certificates.
+Preparing to unpack .../01-ca-certificates_20230311ubuntu0.22.04.1_all.deb ...
+Unpacking ca-certificates (20230311ubuntu0.22.04.1) ...
+Selecting previously unselected package libnghttp2-14:arm64.
+Preparing to unpack .../02-libnghttp2-14_1.43.0-1build3_arm64.deb ...
+Unpacking libnghttp2-14:arm64 (1.43.0-1build3) ...
+Selecting previously unselected package libpsl5:arm64.
+Preparing to unpack .../03-libpsl5_0.21.0-1.2build2_arm64.deb ...
+Unpacking libpsl5:arm64 (0.21.0-1.2build2) ...
+Selecting previously unselected package publicsuffix.
+Preparing to unpack .../04-publicsuffix_20211207.1025-1_all.deb ...
+Unpacking publicsuffix (20211207.1025-1) ...
+Selecting previously unselected package libbrotli1:arm64.
+Preparing to unpack .../05-libbrotli1_1.0.9-2build6_arm64.deb ...
+Unpacking libbrotli1:arm64 (1.0.9-2build6) ...
+Selecting previously unselected package libsasl2-modules-db:arm64.
+Preparing to unpack .../06-libsasl2-modules-db_2.1.27+dfsg2-3ubuntu1.2_arm64.deb ...
+Unpacking libsasl2-modules-db:arm64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Selecting previously unselected package libsasl2-2:arm64.
+Preparing to unpack .../07-libsasl2-2_2.1.27+dfsg2-3ubuntu1.2_arm64.deb ...
+Unpacking libsasl2-2:arm64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Selecting previously unselected package libldap-2.5-0:arm64.
+Preparing to unpack .../08-libldap-2.5-0_2.5.16+dfsg-0ubuntu0.22.04.1_arm64.deb ...
+Unpacking libldap-2.5-0:arm64 (2.5.16+dfsg-0ubuntu0.22.04.1) ...
+Selecting previously unselected package librtmp1:arm64.
+Preparing to unpack .../09-librtmp1_2.4+20151223.gitfa8646d.1-2build4_arm64.deb ...
+Unpacking librtmp1:arm64 (2.4+20151223.gitfa8646d.1-2build4) ...
+Selecting previously unselected package libssh-4:arm64.
+Preparing to unpack .../10-libssh-4_0.9.6-2ubuntu0.22.04.1_arm64.deb ...
+Unpacking libssh-4:arm64 (0.9.6-2ubuntu0.22.04.1) ...
+Selecting previously unselected package libcurl4:arm64.
+Preparing to unpack .../11-libcurl4_7.81.0-1ubuntu1.14_arm64.deb ...
+Unpacking libcurl4:arm64 (7.81.0-1ubuntu1.14) ...
+Selecting previously unselected package curl.
+Preparing to unpack .../12-curl_7.81.0-1ubuntu1.14_arm64.deb ...
+Unpacking curl (7.81.0-1ubuntu1.14) ...
+Selecting previously unselected package libldap-common.
+Preparing to unpack .../13-libldap-common_2.5.16+dfsg-0ubuntu0.22.04.1_all.deb ...
+Unpacking libldap-common (2.5.16+dfsg-0ubuntu0.22.04.1) ...
+Selecting previously unselected package libsasl2-modules:arm64.
+Preparing to unpack .../14-libsasl2-modules_2.1.27+dfsg2-3ubuntu1.2_arm64.deb ...
+Unpacking libsasl2-modules:arm64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Setting up libpsl5:arm64 (0.21.0-1.2build2) ...
+Setting up libbrotli1:arm64 (1.0.9-2build6) ...
+Setting up libsasl2-modules:arm64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Setting up libnghttp2-14:arm64 (1.43.0-1build3) ...
+Setting up libldap-common (2.5.16+dfsg-0ubuntu0.22.04.1) ...
+Setting up libsasl2-modules-db:arm64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Setting up librtmp1:arm64 (2.4+20151223.gitfa8646d.1-2build4) ...
+Setting up libsasl2-2:arm64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Setting up libssh-4:arm64 (0.9.6-2ubuntu0.22.04.1) ...
+Setting up openssl (3.0.2-0ubuntu1.10) ...
+Setting up publicsuffix (20211207.1025-1) ...
+Setting up libldap-2.5-0:arm64 (2.5.16+dfsg-0ubuntu0.22.04.1) ...
+Setting up ca-certificates (20230311ubuntu0.22.04.1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/aarch64-linux-gnu/perl/5.34.0 /usr/local/share/perl/5.34.0 /usr/lib/aarch64-linux-gnu/perl5/5.34 /usr/share/perl5 /usr/lib/aarch64-linux-gnu/perl-base /usr/lib/aarch64-linux-gnu/perl/5.34 /usr/share/perl/5.34 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Updating certificates in /etc/ssl/certs...
+137 added, 0 removed; done.
+Setting up libcurl4:arm64 (7.81.0-1ubuntu1.14) ...
+Setting up curl (7.81.0-1ubuntu1.14) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.4) ...
+Processing triggers for ca-certificates (20230311ubuntu0.22.04.1) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+[?2004h]0;root@efe625bb7410: /root@efe625bb7410:/# curl      [7mcurl -sL https://deb.nodesource.com/setup_16.x | bash[27m
+[7mapt install -y nodejs[27m[Acurl -sL https://deb.nodesource.com/setup_16.x | bash
+apt install -y nodejs
+[?2004l
+[1m[31m================================================================================(B[m
+[1m[31m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓(B[m
+[1m[31m================================================================================(B[m
+
+  [1m[33m                         [4mSCRIPT DEPRECATION WARNING(B[m                    (B[m
+
+  
+  This script, located at [1mhttps://deb.nodesource.com/setup_X(B[m, used to
+  install Node.js is deprecated now and will eventually be made inactive.
+
+  Please visit the NodeSource [1mdistributions(B[m Github and follow the
+  instructions to migrate your repo.
+  [4m[32m[1mhttps://github.com/nodesource/distributions(B[m
+
+  The [1mNodeSource(B[m Node.js Linux distributions GitHub repository contains
+  information about which versions of Node.js and which Linux distributions
+  are supported and how to install it.
+  [4m[32m[1mhttps://github.com/nodesource/distributions(B[m
+
+
+                          [4m[1m[33mSCRIPT DEPRECATION WARNING(B[m
+
+[1m[31m================================================================================(B[m
+[1m[31m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓(B[m
+[1m[31m================================================================================(B[m
+
+[36m[1mTO AVOID THIS WAIT MIGRATE THE SCRIPT(B[m
+Continuing in 60 seconds (press Ctrl-C to abort) ...
+
+^C
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 70%Reading package lists... 70%Reading package lists... 71%Reading package lists... 71%Reading package lists... 76%Reading package lists... 76%Reading package lists... 81%Reading package lists... 81%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 87%Reading package lists... 87%Reading package lists... 91%Reading package lists... 91%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 6%Reading state information... Done
+The following additional packages will be installed:
+  javascript-common libc-ares2 libicu70 libjs-highlight.js libnode72 libuv1 nodejs-doc
+Suggested packages:
+  apache2 | lighttpd | httpd npm
+The following NEW packages will be installed:
+  javascript-common libc-ares2 libicu70 libjs-highlight.js libnode72 libuv1 nodejs nodejs-doc
+0 upgraded, 8 newly installed, 0 to remove and 0 not upgraded.
+Need to get 23.9 MB of archives.
+After this operation, 86.4 MB of additional disk space will be used.
+[33m0% [Working][0m[33m0% [Waiting for headers][0m                        Get:1 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libicu70 arm64 70.1-2 [10.5 MB]
+[33m0% [1 libicu70 13.7 kB/10.5 MB 0%][0m[33m0% [1 libicu70 41.7 kB/10.5 MB 0%][0m[33m                                  0% [1 libicu70 129 kB/10.5 MB 1%][0m[33m1% [1 libicu70 358 kB/10.5 MB 3%][0m[33m3% [1 libicu70 922 kB/10.5 MB 9%][0m[33m6% [1 libicu70 1655 kB/10.5 MB 16%][0m[33m6% [1 libicu70 1873 kB/10.5 MB 18%][0m[33m12% [1 libicu70 3440 kB/10.5 MB 33%][0m[33m12% [1 libicu70 3440 kB/10.5 MB 33%][0m[33m14% [1 libicu70 4063 kB/10.5 MB 39%][0m[33m21% [1 libicu70 6289 kB/10.5 MB 60%][0m[33m24% [1 libicu70 7116 kB/10.5 MB 68%]                                                1128 kB/s 14s[0m[33m24% [1 libicu70 7116 kB/10.5 MB 68%]                                                1128 kB/s 14s[0m[33m27% [1 libicu70 8068 kB/10.5 MB 77%]                                                1128 kB/s 14s[0m[33m35% [1 libicu70 10.3 MB/10.5 MB 98%]                                                1128 kB/s 11s[0m[33m38% [Waiting for headers]                                                           1128 kB/s 11s[0m                                                                                                 Get:2 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libuv1 arm64 1.43.0-1 [89.9 kB]
+[33m38% [2 libuv1 0 B/89.9 kB 0%]                                                       1128 kB/s 11s[0m[33m41% [Waiting for headers]                                                           1128 kB/s 11s[0m                                                                                                 Get:3 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 javascript-common all 11+nmu1 [5936 B]
+[33m41% [3 javascript-common 5936 B/5936 B 100%]                                        1128 kB/s 11s[0m[33m43% [Waiting for headers]                                                           1128 kB/s 11s[0m                                                                                                 Get:4 http://ports.ubuntu.com/ubuntu-ports jammy/universe arm64 libjs-highlight.js all 9.18.5+dfsg1-1 [367 kB]
+[33m43% [4 libjs-highlight.js 18.2 kB/367 kB 5%]                                        1128 kB/s 11s[0m[33m44% [4 libjs-highlight.js 238 kB/367 kB 65%]                                        1128 kB/s 11s[0m                                                                                                 Get:5 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libc-ares2 arm64 1.18.1-1ubuntu0.22.04.2 [44.5 kB]
+                                                                                                 Get:6 http://ports.ubuntu.com/ubuntu-ports jammy/universe arm64 libnode72 arm64 12.22.9~dfsg-1ubuntu3 [10.3 MB]
+[33m50% [6 libnode72 124 kB/10.3 MB 1%]                                                 1128 kB/s 11s[0m[33m54% [6 libnode72 1479 kB/10.3 MB 14%]                                               1128 kB/s 10s[0m[33m56% [6 libnode72 2108 kB/10.3 MB 20%]                                                1128 kB/s 9s[0m[33m62% [6 libnode72 3893 kB/10.3 MB 38%]                                                1128 kB/s 7s[0m[33m62% [6 libnode72 3893 kB/10.3 MB 38%]                                                1128 kB/s 7s[0m[33m70% [6 libnode72 6094 kB/10.3 MB 59%]                                                1128 kB/s 5s[0m[33m72% [6 libnode72 6744 kB/10.3 MB 65%]                                                1128 kB/s 5s[0m[33m76% [6 libnode72 7976 kB/10.3 MB 77%]                                                1918 kB/s 2s[0m[33m76% [6 libnode72 7976 kB/10.3 MB 77%]                                                1918 kB/s 2s[0m[33m80% [6 libnode72 8984 kB/10.3 MB 87%]                                                1918 kB/s 2s[0m[33m81% [6 libnode72 9342 kB/10.3 MB 90%]                                                1918 kB/s 1s[0m[33m81% [6 libnode72 9548 kB/10.3 MB 92%]                                                1918 kB/s 1s[0m[33m81% [6 libnode72 9548 kB/10.3 MB 92%]                                                1918 kB/s 1s[0m[33m83% [6 libnode72 10.1 MB/10.3 MB 98%]                                                1918 kB/s 1s[0m                                                                                                 Get:7 http://ports.ubuntu.com/ubuntu-ports jammy/universe arm64 nodejs-doc all 12.22.9~dfsg-1ubuntu3 [2409 kB]
+[33m87% [7 nodejs-doc 26.5 kB/2409 kB 1%]                                                1918 kB/s 1s[0m[33m87% [7 nodejs-doc 118 kB/2409 kB 5%]                                                 1918 kB/s 1s[0m[33m91% [7 nodejs-doc 1215 kB/2409 kB 50%]                                               1918 kB/s 0s[0m[33m91% [7 nodejs-doc 1215 kB/2409 kB 50%]                                               1918 kB/s 0s[0m[33m91% [7 nodejs-doc 1215 kB/2409 kB 50%]                                               1918 kB/s 0s[0m[33m91% [7 nodejs-doc 1215 kB/2409 kB 50%]                                               1918 kB/s 0s[0m[33m91% [7 nodejs-doc 1215 kB/2409 kB 50%]                                                574 kB/s 2s[0m[33m91% [7 nodejs-doc 1215 kB/2409 kB 50%]                                                574 kB/s 2s[0m[33m91% [7 nodejs-doc 1215 kB/2409 kB 50%]                                                574 kB/s 2s[0m[33m91% [7 nodejs-doc 1215 kB/2409 kB 50%]                                                574 kB/s 2s[0m[33m91% [7 nodejs-doc 1280 kB/2409 kB 53%]                                                574 kB/s 2s[0m[33m91% [7 nodejs-doc 1280 kB/2409 kB 53%]                                                574 kB/s 2s[0m[33m92% [7 nodejs-doc 1754 kB/2409 kB 73%]                                                574 kB/s 1s[0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%]                                                574 kB/s 0s[0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%]                                                574 kB/s 0s[0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%]                                                574 kB/s 0s[0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%]                                                574 kB/s 0s[0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%]                                                574 kB/s 0s[0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%]                                                181 kB/s 1s[0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%]                                                181 kB/s 1s[0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%]                                                181 kB/s 1s[0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%]                                                181 kB/s 1s[0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%]                                                181 kB/s 1s[0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%]                                                181 kB/s 1s[0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%]                                                181 kB/s 1s[0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%]                                                181 kB/s 1s[0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%]                                                181 kB/s 1s[0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%]                                                181 kB/s 1s[0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%]                                                181 kB/s 1s[0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%]                                                181 kB/s 1s[0m[33m                                                                                                 94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2312 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2313 kB/2409 kB 96%][0m[33m94% [7 nodejs-doc 2340 kB/2409 kB 97%][0m[33m                                      97% [Working][0m             Get:8 http://ports.ubuntu.com/ubuntu-ports jammy/universe arm64 nodejs arm64 12.22.9~dfsg-1ubuntu3 [122 kB]
+[33m97% [8 nodejs 41.6 kB/122 kB 34%][0m[33m                                 100% [Working][0m              Fetched 23.9 MB in 42s (573 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+
+7[0;24r8[1ASelecting previously unselected package libicu70:arm64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 5048 files and directories currently installed.)
+Preparing to unpack .../0-libicu70_70.1-2_arm64.deb ...
+7[25;0f[42m[30mProgress: [  0%][49m[39m [............................................................................] 87[25;0f[42m[30mProgress: [  3%][49m[39m [##..........................................................................] 8Unpacking libicu70:arm64 (70.1-2) ...
+7[25;0f[42m[30mProgress: [  6%][49m[39m [####........................................................................] 8Selecting previously unselected package libuv1:arm64.
+Preparing to unpack .../1-libuv1_1.43.0-1_arm64.deb ...
+7[25;0f[42m[30mProgress: [  9%][49m[39m [######......................................................................] 8Unpacking libuv1:arm64 (1.43.0-1) ...
+7[25;0f[42m[30mProgress: [ 12%][49m[39m [#########...................................................................] 8Selecting previously unselected package javascript-common.
+Preparing to unpack .../2-javascript-common_11+nmu1_all.deb ...
+7[25;0f[42m[30mProgress: [ 15%][49m[39m [###########.................................................................] 8Unpacking javascript-common (11+nmu1) ...
+7[25;0f[42m[30mProgress: [ 18%][49m[39m [#############...............................................................] 8Selecting previously unselected package libjs-highlight.js.
+Preparing to unpack .../3-libjs-highlight.js_9.18.5+dfsg1-1_all.deb ...
+7[25;0f[42m[30mProgress: [ 21%][49m[39m [################............................................................] 8Unpacking libjs-highlight.js (9.18.5+dfsg1-1) ...
+7[25;0f[42m[30mProgress: [ 24%][49m[39m [##################..........................................................] 8Selecting previously unselected package libc-ares2:arm64.
+Preparing to unpack .../4-libc-ares2_1.18.1-1ubuntu0.22.04.2_arm64.deb ...
+7[25;0f[42m[30mProgress: [ 27%][49m[39m [####################........................................................] 8Unpacking libc-ares2:arm64 (1.18.1-1ubuntu0.22.04.2) ...
+7[25;0f[42m[30mProgress: [ 30%][49m[39m [#######################.....................................................] 8Selecting previously unselected package libnode72:arm64.
+Preparing to unpack .../5-libnode72_12.22.9~dfsg-1ubuntu3_arm64.deb ...
+7[25;0f[42m[30mProgress: [ 33%][49m[39m [#########################...................................................] 8Unpacking libnode72:arm64 (12.22.9~dfsg-1ubuntu3) ...
+7[25;0f[42m[30mProgress: [ 36%][49m[39m [###########################.................................................] 8Selecting previously unselected package nodejs-doc.
+Preparing to unpack .../6-nodejs-doc_12.22.9~dfsg-1ubuntu3_all.deb ...
+7[25;0f[42m[30mProgress: [ 39%][49m[39m [#############################...............................................] 8Unpacking nodejs-doc (12.22.9~dfsg-1ubuntu3) ...
+7[25;0f[42m[30mProgress: [ 42%][49m[39m [################################............................................] 8Selecting previously unselected package nodejs.
+Preparing to unpack .../7-nodejs_12.22.9~dfsg-1ubuntu3_arm64.deb ...
+7[25;0f[42m[30mProgress: [ 45%][49m[39m [##################################..........................................] 8Unpacking nodejs (12.22.9~dfsg-1ubuntu3) ...
+7[25;0f[42m[30mProgress: [ 48%][49m[39m [####################################........................................] 8Setting up javascript-common (11+nmu1) ...
+7[25;0f[42m[30mProgress: [ 52%][49m[39m [#######################################.....................................] 87[25;0f[42m[30mProgress: [ 55%][49m[39m [#########################################...................................] 8Setting up libc-ares2:arm64 (1.18.1-1ubuntu0.22.04.2) ...
+7[25;0f[42m[30mProgress: [ 58%][49m[39m [###########################################.................................] 87[25;0f[42m[30mProgress: [ 61%][49m[39m [##############################################..............................] 8Setting up libuv1:arm64 (1.43.0-1) ...
+7[25;0f[42m[30mProgress: [ 64%][49m[39m [################################################............................] 87[25;0f[42m[30mProgress: [ 67%][49m[39m [##################################################..........................] 8Setting up libjs-highlight.js (9.18.5+dfsg1-1) ...
+7[25;0f[42m[30mProgress: [ 70%][49m[39m [####################################################........................] 87[25;0f[42m[30mProgress: [ 73%][49m[39m [#######################################################.....................] 8Setting up libicu70:arm64 (70.1-2) ...
+7[25;0f[42m[30mProgress: [ 76%][49m[39m [#########################################################...................] 87[25;0f[42m[30mProgress: [ 79%][49m[39m [###########################################################.................] 8Setting up libnode72:arm64 (12.22.9~dfsg-1ubuntu3) ...
+7[25;0f[42m[30mProgress: [ 82%][49m[39m [##############################################################..............] 87[25;0f[42m[30mProgress: [ 85%][49m[39m [################################################################............] 8Setting up nodejs-doc (12.22.9~dfsg-1ubuntu3) ...
+7[25;0f[42m[30mProgress: [ 88%][49m[39m [##################################################################..........] 87[25;0f[42m[30mProgress: [ 91%][49m[39m [#####################################################################.......] 8Setting up nodejs (12.22.9~dfsg-1ubuntu3) ...
+7[25;0f[42m[30mProgress: [ 94%][49m[39m [#######################################################################.....] 8update-alternatives: using /usr/bin/nodejs to provide /usr/bin/js (js) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/js.1.gz because associated file /usr/share/man/man1/nodejs.1.gz (of link group js) doesn't exist
+7[25;0f[42m[30mProgress: [ 97%][49m[39m [#########################################################################...] 8Processing triggers for libc-bin (2.35-0ubuntu3.4) ...
+
+7[0;25r8[1A[J[?2004h]0;root@efe625bb7410: /root@efe625bb7410:/# [Knode -v
+[?2004lv12.22.9
+[?2004h]0;root@efe625bb7410: /root@efe625bb7410:/# node      node /urs  sr/src/app/index.js
+[?2004lHello World
+[?2004h]0;root@efe625bb7410: /root@efe625bb7410:/# [Kexit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                                  [0m[27m[24m[Jzhi.qi@zhiqi-mbp2116 script-answers % [K[?2004h[?2004l
+
+Script done on Sun Oct 22 22:01:12 2023
