@@ -5,3 +5,11 @@ Content-Type: application/json
 	"text": "Write more code",
 	"done": "false"
 }
+
+###
+POST http://localhost:3000/todos/
+Content-Type: application/json
+
+{
+	"text": "Todo #8"
+}
