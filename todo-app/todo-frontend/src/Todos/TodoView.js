@@ -37,6 +37,7 @@ const TodoView = () => {
   return (
     <>
       <h1>Todos</h1>
+			<h2>Testing hot reload</h2>
       <Form createTodo={createTodo} />
       <List todos={todos} deleteTodo={deleteTodo} completeTodo={completeTodo} />
     </>
