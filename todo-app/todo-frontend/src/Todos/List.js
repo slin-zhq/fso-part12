@@ -33,7 +33,6 @@ const TodoList = ({ todos, deleteTodo, completeTodo }) => {
         //     </span>
         //   </>
         // )
-
         return (
         //   <div style={{ display: 'flex', justifyContent: 'space-between', maxWidth: '70%', margin: 'auto' }}>
         //     <span>
@@ -47,7 +46,16 @@ const TodoList = ({ todos, deleteTodo, completeTodo }) => {
 						onClickComplete={onClickComplete}
 					/>
         )
-      }).reduce((acc, cur) => [...acc, <hr />, cur], [])}
+      })
+			.reduce((acc, cur) => [...acc, <hr />, cur], [])
+			.map((item, index) => 
+				(
+					<div key={index}>
+						{item}
+					</div>
+				)
+			)
+			}
     </>
   )
 }
