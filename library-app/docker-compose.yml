@@ -1,0 +1,19 @@
+services:
+  app:
+    image: library-app-fe
+    volumes:
+      - ./library-frontend:/usr/src/app
+  server:
+    image: library-app-be
+    volumes:
+      - ./graphql-library-backend:/usr/src/app
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./nginx.dev.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8082:80
+    container_name: reverse-proxy-library-app
+    depends_on:
+      - app
+      - server
